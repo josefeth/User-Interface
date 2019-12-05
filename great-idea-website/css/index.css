@@ -54,13 +54,173 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Indie Flower', cursive, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Indie Flower', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+header{
+	display:inline-block
+}
+header nav{
+	width:100%;
+}
+
+.logo{
+	padding:0 0 0 15%;
+	z-index: 999;
+	position: fixed;
+	margin: 0 0 0 58%;
+ }
+
+ .logoTwo{
+	 display:inline-block;
+	 padding: 0 0 0 100%;
+	 margin:-1000px 0 10% 6%;
+ }
+
+ .links{
+	width:70%;
+	display: inline-block;
+	margin:0 10% 5% 0;
+	padding:2% 0 0 18%;
+	position: fixed;
+	z-index: 999;
+	
+}
+  nav a{
+	color:black;
+	text-decoration:none;
+	margin:5% 0 5% 5%;
+	padding:5% 0 0 5%;
+	
+}
+  nav a:hover{
+	color:#AFEEEE;
+}
+.first{
+	display: inline-block;
+    width: 100%;
+    padding: 5% 0 0 25%;
+    
+}
+
+.containerOne{
+	text-align:center;
+	display:inline-block;
+	margin:0 3% 0;
+	padding:0 0 0 0;
+}
+
+
+
+.containerOne h1{
+	margin: 15% 0 10% 35%;
+    padding: 0 0 10%;
+    font-size: 90px;
+	
+}
+
+ /* .second{
+	margin: -150px 0 -100px 0;
+    display: inline-block;
+    width: 110%;
+    height: 400px;
+    padding: 0 5% 0 0
+	
+ } */
+.second{
+	margin: 0 0 0 5%;
+    display: inline-block;
+	width: 93%;
+	padding:0 0 3%;
+}
+
+.one{
+	display:inline-block;
+	width:25%;
+	margin:0 0 0 20%;
+	
+}
+
+.two{
+	display: inline-block;
+    width: 25%;
+    margin: 0 0 0 8%;
+    padding: 0 0 0 0;
+}
+
+.middle-img{
+	
+	margin: 0 auto 0;
+    display: block;
+	
+}
+
+.third{
+	margin: 2% 0 0 20%;
+    display: inline-block;
+    width: 94%;
+    padding: 0 0 3% 3%;
+	
+	
+}
+
+.service{
+	display:inline-block;
+	width:20%;
+	
+	text-align:left;
+}
+
+.product{
+	display:inline-block;
+	width:20%;
+	text-align:left;
+	
+}
+
+.vision{
+	display:inline-block;
+	width:20%;
+	text-align:left;
+	
+}
+
+/* .vistion p {
+	display:inline-block;
+	margin:0 auto;
+	padding:0 auto;
+} */
+
+.contact{
+	margin: 0 0 0 23%;
+    display: inline-block;
+	width: 23%;
+	padding: 3% 0 0 0;
+}
+
+footer{
+	
+	padding:5% 0 0 0;
+	text-align:center;
+}
+
+hr{
+	width:56%;
+	
+}
+
+button{
+	width:100px;
+	background-color:white;
+	border: 2px solid black;
+	padding: 0 0 0 0;
+	margin:0 0 10% 30%;
+}
+
